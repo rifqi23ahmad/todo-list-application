@@ -1,4 +1,3 @@
-
   
 import React, { useState } from 'react';
 import TodoForm from './TodoForm';
@@ -41,6 +40,7 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
           className='edit-icon'
         />
       </div>
+      <div><img src="/beground.jpg" alt="background"/></div>
     </div>
   ));
 };

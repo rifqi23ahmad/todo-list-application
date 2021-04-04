@@ -46,6 +46,7 @@ function TodoList() {
 //   }
 
   return (
+    
     <div className="Container">
       <h1 className='icons'><MdEvent/>Apa Rencanamu Hari ini?</h1>
       <TodoForm onSubmit={addTodo} />
@@ -56,6 +57,7 @@ function TodoList() {
         updateTodo={updateTodo}
       />
     </div>
+    
   );
 }
 
